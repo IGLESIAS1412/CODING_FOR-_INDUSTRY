@@ -1,0 +1,34 @@
+body{
+    background-color:  blue;
+}
+.a{
+    background-color: red;
+    width: 504px;
+    height: 800px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 10px;
+
+}
+
+.box{
+    background-color: orange;
+    width: 500px;
+    height: 200px;
+    margin-top: 1px;
+    color: white;
+    
+}
+.box1{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+   
+}
+.box2{
+    background-color: purple;
+    width: 500px;
+    height: 300px;
+   
+}
