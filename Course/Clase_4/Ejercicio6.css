@@ -66,17 +66,13 @@
     text-align: center;
     
     }
-
-    .enlacesP {
-        gap: 30px;
-        position:fixed;
-        bottom: 0;
-        background-color: #fff; /* Puedes ajustar el color de fondo según tus preferencias */
-        align-items: end;
-      }
-    .enlaces{
-        border: 5px solid black;
-        padding: 5px;
+    .enlaces {
+        
+        padding: 10px;
+        align-items: end; 
+        display: flex;  
+        justify-content: end; 
+        flex-direction: column;
     }
     .AutorP3{
         display:none;
@@ -87,7 +83,9 @@
     #menu{
         display: none;
     }
-
+    .enlacesM{
+        display: none;
+    }
 }
 
 @media (min-width:480px){  
@@ -120,7 +118,7 @@
         padding-bottom: 20px;
         
     }
-    .enlacesP{
+    .enlacesM{
         display: flex;
         padding: 10px;
         
@@ -156,11 +154,18 @@
         justify-self: end;
         display: flex;
         border: 1px solid red;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: start;
         
     }
+    
+    .Autor p:first-of-type {
+        order: 3;
+        
+        
+        
+      }
     .AutorP2{
         display: flex;
         border: 4px solid yellow;
@@ -170,24 +175,30 @@
     .Autor2{
         display: flex;
         border: 1px solid red;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: start;
     }
+    .Autor2 p:first-of-type {
+        order: 3;
+      }
     .AutorP3{
         display: flex;
         border: 4px solid yellow;
         width: 33%;
-        
+
         
     }
     .Autor3{
         display: flex;
         border: 1px solid red;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: start;
-    }
+    }   
+    .Autor3 p:first-of-type {
+        order: 3;
+      }
 
 
 
@@ -202,7 +213,7 @@
         display: flex;
         border: 1px solid ;
         width: 33%;
-        ;
+        
     }
 
     #travel{
@@ -216,6 +227,9 @@
         display: flex;
         flex-direction: column;
         
+    }
+    .enlaces{
+        display: none;
     }
  
 }
