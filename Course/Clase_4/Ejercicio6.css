@@ -218,6 +218,7 @@
 
     #travel{
         width: 100%;
+        size: 100%;
     }
     .Botonr{
         display: flex;
